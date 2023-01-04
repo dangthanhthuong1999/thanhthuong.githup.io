@@ -1,0 +1,63 @@
+@media screen and (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+  .h2 {
+    display: none;
+  }
+  nav a {
+    white-space: nowrap;
+  }
+
+  .exps {
+    grid-area: exps;
+  }
+  .skill {
+    grid-area: skill;
+  }
+  .languages {
+    grid-area: lang;
+  }
+  .activate {
+    grid-area: act;
+  }
+  .education {
+    grid-area: edu;
+  }
+  .itr {
+    grid-area: itr;
+  }
+  .section-title {
+    white-space: nowrap;
+    padding-right: 100px;
+  }
+  .icon {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+  }
+  .job-info {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    gap: 20px 20px;
+    grid-template-areas:
+      "exps act"
+      "exps edu"
+      "skill edu"
+      "skill lang"
+      "skill lang"
+      "skill lang"
+      "itr lang";
+  }
+
+  .certificate > div {
+    flex-direction: column;
+  }
+  .cert {
+    width: 100%;
+  }
+  td:first-child {
+    width: 0;
+  }
+}

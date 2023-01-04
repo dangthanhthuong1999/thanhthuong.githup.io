@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  nav > * {
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+  }
+  nav a:first-child {
+    border: none;
+  }
+  .space {
+    display: none;
+  }
+
+  .job-info {
+    display: flex;
+  }
+  .h3 {
+    display: inline-block;
+  }
+  .section-title {
+    padding-right: 0px;
+    display: inline-block;
+  }
+  .h3:hover .vm {
+    display: block;
+  }
+  .vm {
+    white-space: nowrap;
+  }
+  .icon {
+    top: 0;
+    right: -60px;
+  }
+  .container-project {
+    gap: 50px;
+  }
+  .items {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .items-2 {
+    padding-left: 1rem;
+  }
+  .certificate > div {
+    border-right: none;
+    border-top: #d6c08d solid 1px;
+    padding-top: 50px;
+  }
+  .certificate > div:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+  .certificate > div:last-child {
+    display: none;
+  }
+}
